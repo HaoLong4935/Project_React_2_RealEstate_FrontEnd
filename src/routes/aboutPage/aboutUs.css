@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sau đó là CSS tùy chỉnh */
+.image-top-left-round {
+    border-top-left-radius: 200px;
+}
+
+.image-bottom-right-round {
+    border-bottom-right-radius: 200px;
+}
+
+.tall-heigh-card {
+    height: 500px;
+}

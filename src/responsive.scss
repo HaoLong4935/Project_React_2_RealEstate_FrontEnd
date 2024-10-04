@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@mixin lg {
+    @media(max-width: 1366px) {
+        @content
+    }
+}
+
+;
+
+@mixin md {
+    @media(max-width: 1024px) {
+        @content
+    }
+}
+
+;
+
+@mixin sm {
+    @media(max-width: 783px) {
+        @content
+    }
+}
+
+;
